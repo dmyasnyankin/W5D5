@@ -10,7 +10,6 @@ class Clock {
     this.secs = this.date.getSeconds();
     this.printTime();
     setInterval(() => { this._tick(); }, 1000);
-    // location.reload (1000000000);
   }
 
   printTime() {
@@ -38,6 +37,5 @@ class Clock {
     this.printTime();
   }
 }
-
 
 const clock = new Clock();
