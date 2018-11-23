@@ -1,0 +1,15 @@
+/* PHASE 5: Cats */
+.content-header {
+  min-height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/cats.jpg");
+}
+
+.name-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
