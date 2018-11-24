@@ -9,7 +9,8 @@ class Clock {
     this.mins = this.date.getMinutes();
     this.secs = this.date.getSeconds();
     this.printTime();
-    setInterval(() => { this._tick(); }, 1000);
+    setInterval(() => this._tick(), 1000);
+    // setInterval(this._tick().bind(this), 1000);
   }
 
   printTime() {
