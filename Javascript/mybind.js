@@ -1,6 +1,6 @@
 
 Function.prototype.myBind = function(context) {
-  return () => this.apply(context);
+  return () => this.call(context);
 };
 // bind is supposed to return a function that uses the context that was passed in.
 // this = the function you called myBind on
